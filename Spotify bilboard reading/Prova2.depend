@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1637784437 source:c:\users\allec\desktop\playlists\prova2\leitura2.c
+	<stdio.h>
+	<string.h>
+	"leitura.hpp"
+
+1638188567 c:\users\allec\desktop\playlists\prova2\leitura.hpp
+
+1638908388 source:c:\users\allec\desktop\playlists\prova2\main.c
+	<locale.h>
+	<stdio.h>
+	<stdlib.h>
+	"leitura.hpp"
+	<time.h>
+
+1637784588 source:c:\users\allec\desktop\playlists\prova2\leitura.c
+	<stdio.h>
+	<string.h>
+	"leitura.hpp"
+
+1638143364 source:c:\users\allec\desktop\playlists\prova2\testes.c
+	<stdio.h>
+	<string.h>
+	"leitura.hpp"
+	<stdlib.h>
+
+1638165229 source:c:\users\allec\desktop\playlists\prova2\mystrtok.c
+	<stdio.h>
+	<string.h>
+	"leitura.hpp"
+	<stdlib.h>
+
+1638074381 source:c:\users\allec\desktop\playlists\prova2\musok.c
+	<stdio.h>
+	<string.h>
+	"leitura.hpp"
+	<stdlib.h>
+
+1638189956 source:c:\users\allec\desktop\playlists\prova2\lerplaylist.c
+	<stdio.h>
+	<string.h>
+	"leitura.hpp"
+	<stdlib.h>
+
+1638190594 source:c:\users\allec\desktop\playlists\prova2\criarplaylist.c
+	<stdio.h>
+	<string.h>
+	"leitura.hpp"
+	<stdlib.h>
+
+1638189655 source:c:\users\allec\desktop\playlists\prova2\procurarinserirmusica.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"leitura.hpp"
+
