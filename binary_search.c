@@ -7,8 +7,6 @@
     Método binário para pesquisa em array ordenado:
     Verifica metade -> se metade>busca procuraEsquerda(), senao procuraDireita() -> Verifica metade
     da metade até achar valor ou metade for <0;
-    test
-    
 */
 
 void scanArray(int* arr, int size) {    /*scan array*/
