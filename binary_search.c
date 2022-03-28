@@ -40,6 +40,7 @@ void sortArray(int* arr, int size){ /*Metodo bolha, ordem crescente*/
 }
 
 int main() {
+
     srand(time(NULL));
     int size;
 
@@ -47,7 +48,12 @@ int main() {
     printf("\nInsert array size: ");
     scanf("%d", &size);
 
-    int arr[size], i, key;
+    int* arr = (int*)malloc(size*sizeof(int));
+    if(arr == NULL){
+        printf("\nCouldn't allocate!");
+    }
+
+    int i, key;
 
     for(i=0;i<size;i++) {
         arr[i] = rand()%100;
@@ -60,12 +66,13 @@ int main() {
     scanf("%d", &key);
     int low = 0, high = size, aux=0;
     int tracker= (int)size/2;
+    int retval = 1;
 
     for(;low <=high;){
 
         if(arr[tracker]==key){
             printf("Found at %d", tracker);
-            exit(0);
+            retval = 0;
         }
 
         if(arr[tracker]<key) {
@@ -77,5 +84,9 @@ int main() {
         tracker = low + (high-low)/2;
     }
 
-    printf("\nCouldn't find!");
+    if(retval) {
+        printf("\nCouldn't find!");
+    }
+    
+    free(arr);
 }
